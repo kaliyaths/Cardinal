@@ -1,0 +1,63 @@
+Integration is the process of finding an integral.
+
+An indefinite integral represents a family of functions whose
+derivative is the given function.
+
+For example, the integral of x is:
+
+∫ x dx = x²/2 + C
+
+The constant C is called the constant of integration.
+
+The power rule for integration is:
+
+∫ xⁿ dx = xⁿ⁺¹/(n+1) + C, where n ≠ -1
+
+For example:
+
+∫ x² dx = x³/3 + C
+
+This rule means that when integrating a power of x, the exponent
+is increased by 1 and the result is divided by the new exponent.
+
+A constant multiple can be taken outside the integral:
+
+∫ kf(x) dx = k∫ f(x) dx
+
+For example:
+
+∫ 3x² dx = 3x³/3 + C
+           = x³ + C
+
+Integration can be understood as the reverse process of
+differentiation. If differentiation takes a function and produces
+its derivative, integration can be used to find functions that have
+a given derivative.
+
+The constant C is necessary because different functions can have
+the same derivative. For example, the derivative of x²/2 is x,
+and the derivative of x²/2 + 5 is also x. Therefore, the indefinite
+integral of x represents a family of functions:
+
+∫ x dx = x²/2 + C
+
+When integrating a sum or difference, each term can be integrated
+separately:
+
+∫ (f(x) + g(x)) dx = ∫ f(x) dx + ∫ g(x) dx
+
+For example:
+
+∫ (x² + 2x) dx = x³/3 + x² + C
+
+An indefinite integral does not have upper and lower limits.
+
+A definite integral has limits of integration:
+
+∫ₐᵇ f(x) dx
+
+A definite integral produces a single numerical value, whereas an
+indefinite integral represents a family of functions.
+
+A definite integral can be interpreted as signed area between the
+graph of a function and the x-axis over the specified interval.

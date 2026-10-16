@@ -1,5 +1,11 @@
+# Local Ollama model used by the tutor
 
-MODEL_NAME = "phi4-mini"
+OLLAMA_MODEL = "qwen3.5:2b"
+
+# Keep the embedding model separate from the chat model
+EMBEDDING_MODEL = "nomic-embed-text"
+
+# MODEL_NAME = "phi4-mini" Older one
 
 MAX_HISTORY = 20
 TEMPERATURE = 0.3
